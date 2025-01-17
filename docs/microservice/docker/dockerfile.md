@@ -95,7 +95,7 @@ CMD指令和RUN指令的区别：
 ```dockerfile
 
 # 安装node
-FROM node:12.6.0-alpine
+FROM node:22.13.0-alpine
 # 标签
 LABEL version="Beta1.0"
 LABEL description="基于egg框架实现的Oauth2统一认证登录"
